@@ -28,18 +28,18 @@ const CampSite = ({ backgroundImage, title, subtitle, peopleJoined }: CampProps)
                 </div>
 
                 <div className="flexCenter gap-6">
-        <span className="flex -space-x-4 overflow-hidden">
-          {PEOPLE_URL.map((url) => (
-              <Image
-                  className="inline-block h-10 w-10 rounded-full"
-                  src={url}
-                  key={url}
-                  alt="person"
-                  width={52}
-                  height={52}
-              />
-          ))}
-        </span>
+                    <span className="flex -space-x-4 overflow-hidden">
+                        {PEOPLE_URL.map((url) => (
+                            <Image
+                                className="inline-block h-10 w-10 rounded-full"
+                                src={url}
+                                key={url}
+                                alt="person"
+                                width={52}
+                                height={52}
+                            />
+                        ))}
+                    </span>
                     <p className="bold-16 md:bold-20 text-white">{peopleJoined}</p>
                 </div>
             </div>
@@ -71,7 +71,7 @@ const Camp = () => {
                         <strong>Feeling Lost</strong> And Not Knowing The Way?
                     </h2>
                     <p className="regular-14 xl:regular-16 mt-5 text-white">
-                        Starting from the anxiety of the climbers when visiting a new climbing location, the possibility of getting lost is very large. That's why we are here for those of you who want to start an adventure
+                        Starting from the anxiety of the climbers when visiting a new climbing location, the possibility of getting lost is very large. That&apos;s why we are here for those of you who want to start an adventure
                     </p>
                     <Image
                         src="/quote.svg"
